@@ -35,6 +35,7 @@ async function runTest() {
         await inviteInput.click()
         await driver.sleep(1000)
         await inviteInput.sendKeys('meow')
+        проверка
 
         await driver.sleep(1000)
 
